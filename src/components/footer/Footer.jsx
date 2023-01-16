@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import Arshakir from "../../assets/Arshakir.png";
-import { BsTwitter } from "react-icons/Bs";
+// import { BsTwitter } from "react-icons/Bs";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
             <img src={Arshakir} alt="" />
           </a>
           <p>Finance helps companies manage payments easily.</p>
-
+          {/* 
           <div className="socialmedia__icons flex">
             <a href="">
               <BsTwitter />
@@ -27,7 +27,7 @@ const Footer = () => {
             <a href="">
               <BsTwitter />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="nav__itemswrap flex">
           <div class="link-column1 flex ">
