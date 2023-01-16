@@ -23,8 +23,8 @@ function App() {
       <Company />
       <Sectionheading />
       <Valueprops />
-      <Sectioncontent1 />
-      <Sectioncontent2 />
+      {/* <Sectioncontent1 />
+      <Sectioncontent2 /> */}
       <Features />
       <Testimonials />
       <Recentblog />
