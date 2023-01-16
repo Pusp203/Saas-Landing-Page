@@ -8,8 +8,6 @@ import Arshakir from "../../assets/Arshakir.png";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    // <div className="about__fold">
-
     <div class="container main__nav flex">
       <div class="flex arshakir__logo ">
         <a href="">
@@ -86,15 +84,12 @@ const Navbar = () => {
 
               <div class="sign1 flex">
                 <p>
-                  <a href="#" class="nav__links1">
+                  <a href="#" class="nav__links2">
                     Sign in{" "}
                   </a>
                 </p>
-                <p class="">
-                  <a href="#" class="nav__links1 primary-button">
-                    Start Free{" "}
-                  </a>
-                </p>
+
+                <button class="nav__links2 primary-button">Start Free </button>
               </div>
             </div>
           </div>

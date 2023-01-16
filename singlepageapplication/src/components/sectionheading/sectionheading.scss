@@ -64,3 +64,39 @@
   color: #000000;
   // padding: 18px 181px 33px 34px;
 }
+
+@media screen and (max-width: 440px) {
+  .section__heading {
+    gap: 20px;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 15px 18px 8px 30px;
+  }
+  .left__section h1 {
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+  }
+  .section__heading p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    flex-wrap: nowrap;
+  }
+  .testi__monials {
+    border-radius: 5px;
+  }
+  .testi__monials p {
+    font-weight: 500;
+    padding: 12px 1px 1px;
+    padding: 4px 1px 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .paragra__ph {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 2px 0px 2px 2px;
+  }
+}
