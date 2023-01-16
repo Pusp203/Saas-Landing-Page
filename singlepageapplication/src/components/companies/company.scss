@@ -1,0 +1,36 @@
+/* Company Section*/
+.comapnies__section {
+  background-color: #f5f6f8;
+  text-align: center;
+  padding-left: 87px;
+  padding-right: 95px;
+}
+.com {
+  padding-top: 64px;
+}
+.company__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.company__images {
+  justify-content: space-evenly;
+  gap: 49px;
+  padding: 39px 82px 95px 87px;
+}
+
+@media only screen and (max-width: 440px) {
+  .comapnies__section p {
+    position: sticky;
+    // padding: 0px;
+  }
+
+  .company__images {
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+}

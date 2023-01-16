@@ -1,0 +1,314 @@
+@import "../../styles/variable.scss";
+@import "../../styles/mixins.scss";
+
+// .saas__navbar {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+
+//   padding: 38px 117px 56px 121px;
+// }
+
+// // .saas__navbar-links {
+// //   // flex: 1;
+// //   display: flex;
+// //   justify-content: flex-start;
+// //   align-items: center;
+// // }
+
+// // .saas__navbar-links_logo {
+// //   margin-right: 2rem;
+// // }
+// .saas__navbar-text {
+//   padding-right: 313px;
+// }
+// .saas__navbar-text > p > a {
+//   text-decoration: none;
+// }
+
+// .saas__navbar-links_container {
+//   display: flex;
+//   flex-direction: row;
+//   // padding-right: 237px;
+// }
+
+// .saas__navbar-links_container > p > a {
+//   text-decoration: none;
+// }
+
+// .saas__navbar-sign {
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: center;
+// }
+
+// .saas__navbar-links_container p,
+// .saas__navbar-sign p,
+// .saas__navbar-menu_container p {
+//   color: #fff;
+
+//   font-weight: 500;
+//   font-size: 18px;
+//   line-height: 25px;
+//   text-transform: capitalize;
+
+//   margin: 0 1rem;
+//   cursor: pointer;
+// }
+
+// .saas__navbar-sign button,
+// .saas__navbar-menu_container button {
+//   padding: 0.5rem 1rem;
+//   color: #fff;
+//   background: #4f46ba;
+//   padding: 17px 36px 16px;
+//   // font-family: var(--font-family);
+//   font-weight: 500;
+//   font-size: 18px;
+//   line-height: 25px;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .saas__navbar-menu {
+//   margin-left: 1rem;
+
+//   display: none;
+//   position: relative;
+// }
+
+// .saas__navbar-menu svg {
+//   cursor: pointer;
+// }
+
+// .saas__navbar-menu_container {
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: flex-end;
+//   flex-direction: column;
+
+//   text-align: end;
+//   background: var(--color-footer);
+//   padding: 2rem;
+//   position: absolute;
+//   right: 0;
+//   top: 40px;
+//   margin-top: 1rem;
+//   min-width: 210px;
+//   border-radius: 5px;
+//   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+// }
+
+// .saas__navbar-menu_container p {
+//   margin: 1rem 0;
+// }
+
+// .saas__navbar-menu_container-links-sign {
+//   display: none;
+// }
+
+// @media screen and (max-width: 1050px) {
+//   .saas__navbar-links_container {
+//     display: none;
+//   }
+
+//   .saas__navbar-menu {
+//     display: flex;
+//   }
+// }
+
+// @media screen and (max-width: 700px) {
+//   .saas__navbar {
+//     padding: 2rem 4rem;
+//   }
+// }
+
+// @media screen and (max-width: 550px) {
+//   .saas__navbar {
+//     padding: 2rem;
+//   }
+
+//   .saas__navbar-sign {
+//     display: none;
+//   }
+
+//   .saas__navbar-menu_container {
+//     top: 20px;
+//   }
+
+//   .saas__navbar-menu_container-links-sign {
+//     display: block;
+//   }
+// }
+
+.container {
+  max-width: 1440px;
+
+  margin: auto;
+  // padding-left: 121px;
+  // padding-right: 117px;
+  // padding-top: 38px;
+  // padding-bottom: 56px;
+}
+.main__nav {
+  // padding-top: 38px;
+  // padding-bottom: 56px;
+}
+
+.ArShakir__logo img {
+  height: 20px;
+  width: 20px;
+}
+
+.nav__items {
+  @include Typography(14, 500, 19px) // font-style: normal;
+    //     // font-weight: 500;
+    //     // font-size: 14px;
+    //     // line-height: 19px;
+    //     //   text-align: center;
+    //     // color: #000000;
+    // ;
+;
+  align-items: center;
+}
+
+.nav__links {
+  @include Texts();
+}
+.sign {
+  gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  flex-direction: row;
+
+  color: #000000;
+  align-items: center;
+}
+.primary-button {
+  border: 1px solid #4f46ba;
+  background: #4f46ba;
+  padding: 17px 16px 36px;
+  color: $color;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.sass__navbar-menu {
+  // margin-left: 1rem;
+
+  display: none;
+  position: relative;
+}
+.sass__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
+
+  // text-align: end;
+  background: white;
+  // padding: 25px;s
+
+  max-width: 210px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .nav__links {
+    display: none;
+  }
+  .sass__navbar-menu {
+    // display: ;
+  }
+  .nav__links1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+
+    // text-align: center;
+  }
+  .nav__items1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sign1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main__nav {
+    display: none;
+  }
+  .nav__links {
+    display: none;
+  }
+  .sass__navbar-menu {
+    display: block;
+  }
+  .nav__links1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    // text-align: center;
+  }
+  .nav__items1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sign1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__nav {
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .arShakir__logo {
+    position: fixed;
+  }
+
+  .sass__navbar-menu {
+    display: block;
+  }
+  .nav__links1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    // text-align: center;
+  }
+  .nav__items1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main__nav {
+  }
+
+  // .sass__navbar-menu_container {
+  //   top: 20px;
+  // }
+
+  // .sign {
+  //   display: block;
+  // }
+}

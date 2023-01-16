@@ -1,0 +1,44 @@
+.section__left {
+  width: 479px;
+}
+
+.section__lefttestimonial p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  /* Pallet 4 / Primary */
+
+  color: #1e1a88;
+}
+.section__lefttestimonial h2 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  /* or 120% */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+.section__lefttestimonial p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  letter-spacing: -0.02em;
+}
+.section__leftbottom-testimonial q {
+  background: #c4c4c4;
+  opacity: 0.3;
+  border-radius: 20px;
+}
+.section__right {
+  width: 486px;
+
+  background: #2c7fa0;
+  border-radius: 10px;
+}

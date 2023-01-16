@@ -1,0 +1,163 @@
+.footer-maincontainer {
+  padding: 0px 0px 0px 121px;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 1440px;
+}
+.footer__subcontainer {
+  padding-bottom: 0px;
+}
+.companies__description {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 104px;
+}
+.companies__description img {
+  padding-bottom: 18px;
+}
+.companies__description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 213px;
+
+  letter-spacing: -0.02em;
+
+  color: #757095;
+}
+.socialmedia__icons {
+  gap: 16px;
+  padding-top: 31px;
+}
+
+.nav__itemswrap {
+  padding-bottom: 59px;
+  padding-left: 76px;
+  max-width: 911px;
+}
+
+.link-column1 {
+  flex-direction: column;
+  // padding-right: 137px;
+  gap: 18px;
+  flex-wrap: nowrap;
+}
+.link-column1 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #181433;
+}
+.link-column1 h4 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+
+  color: #181433;
+  padding-bottom: 6px;
+}
+
+.link-column2 {
+  flex-direction: column;
+  padding-right: 114px;
+  gap: 12px;
+}
+.link-column2 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #181433;
+}
+.link-column2 h4 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+
+  color: #181433;
+  padding-bottom: 12px;
+}
+
+.link-column3 {
+  flex-direction: column;
+  max-width: 389px;
+}
+.link-column3 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #181433;
+}
+.link-column3 h4 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  // max-width: 389px;
+  color: #181433;
+  padding-bottom: 24px;
+}
+input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: -0.02em;
+
+  color: #181433;
+
+  opacity: 0.2;
+}
+.input {
+  background: #eeeeff;
+
+  all: unset;
+  padding: 15px 90px 11px 15px;
+}
+
+.email__1 {
+  background-color: #eeeeff;
+}
+.blue__btn {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+  background: #3734a9;
+
+  padding: 13px 32px 13px 43px;
+}
+.required__field {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: -0.02em;
+
+  color: #181433;
+
+  opacity: 0.5;
+}
+.news__letter {
+  padding-top: 21px;
+
+  // max-width: 329px;
+}
+.sub__footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #181433;
+  padding-top: 40px;
+  padding-bottom: 58px;
+}
