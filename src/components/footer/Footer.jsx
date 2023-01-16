@@ -66,13 +66,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* </div> */} <hr />
+      <hr />
       <div className="sub__footer">
         {" "}
         <p>Copyright @ AR Shakir 2022. All Rights Reserved.</p>
       </div>
     </div>
-    // </div>
   );
 };
 
