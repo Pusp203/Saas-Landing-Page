@@ -1,15 +1,15 @@
-@mixin Typography($size: 18px, $weight: 800, $lineheight: 24px, $gap: 10px) {
-  font-style: normal;
-  font-weight: $weight;
-  font-size: $size;
-  line-height: $lineheight;
-  gap: $gap;
-}
-@mixin Texts($text-decoration: none, $color: black) {
-  text-decoration: $text-decoration;
-  color: $color;
-}
-@mixin flexBox($display: flex, $align-items: center) {
-  display: $display;
-  // align-items: $align-items;
-}
+// @mixin Typography($size: 1px, $weight: 800, $lineheight: 24px, $gap: 10px) {
+//   // font-style: normal;
+//   font-weight: $weight;
+//   font-size: $size;
+//   line-height: $lineheight;
+//   gap: $gap;
+// }
+// @mixin Texts($text-decoration: none, $color: black) {
+//   text-decoration: $text-decoration;
+//   color: $color;
+// }
+// @mixin flexBox($display: flex, $align-items: center) {
+//   display: $display;
+//   // align-items: $align-items;
+// }

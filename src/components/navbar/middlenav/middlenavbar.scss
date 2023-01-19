@@ -1,0 +1,33 @@
+.navbar__navItems {
+  // @include Typography(14, 500, 19px) // font-style: normal;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  align-items: center;
+  gap: 15px;
+
+  &__hamburgerMenu {
+    display: none;
+
+    @media screen and (max-width: 1050px) {
+      display: block;
+    }
+  }
+}
+
+// .nav__links {
+//   @include Texts();
+// }
+.navbar__navItems-item {
+  text-decoration: none;
+  color: #000000;
+}
+.rightNav__signIn {
+  text-decoration: none;
+  color: #000000;
+}

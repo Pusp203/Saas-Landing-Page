@@ -1,182 +1,93 @@
 @import "../../styles/variable.scss";
 @import "../../styles/mixins.scss";
 
-.container {
-  max-width: 1440px;
-}
-.main__nav {
+.main__navbar {
   padding: 38px 117px 70px 121px;
-
+  display: flex;
   justify-content: space-between;
-}
-
-.ArShakir__logo img {
-  height: 20px;
-  width: 20px;
-}
-
-.nav__items {
-  @include Typography(14, 500, 19px) // font-style: normal;
-    //     // font-weight: 500;
-    //     // font-size: 14px;
-    //     // line-height: 19px;
-    //     //   text-align: center;
-    //     // color: #000000;
-    // ;
-;
   align-items: center;
+  max-width: 1202px;
+  margin: auto;
 }
 
-.nav__links {
-  @include Texts();
+// .nav__items__hamburgerMenu {
+//   display: block;
+// }
+.ri__closeline {
+  position: absolute;
+  right: 20px;
+  top: 16px;
 }
-.sign {
-  gap: 20px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 19px;
-  text-align: center;
-  flex-direction: row;
 
-  color: #000000;
-  align-items: center;
-}
-.primary-button {
-  border: 1px solid #4f46ba;
-  background: #4f46ba;
-  padding: 17px 16px 36px;
-  color: $color;
-  text-align: center;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 19px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.sass__navbar-menu {
-  // margin-left: 1rem;
-
-  display: none;
-  position: relative;
-}
-.sass__navbar-menu_container {
-  // display: flex;
-  // justify-content: flex-end;
-  // align-items: flex-end;
-  // flex-direction: column;
-  // gap: 20px;
-
+.nav__items__hamburgerMenu-container {
   background: linear-gradient(292.12deg, #62bada -35.02%, #c9e7f2 78.96%);
 
-  // border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
 }
+.nav__items__hamburgerMenu-container__links {
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  position: fixed;
+}
+.nav__items__hamburgerMenu {
+  display: none;
+}
+
+.nav__items__hamburgerMenu-container__links-items {
+  text-decoration: none;
+  color: #000000;
+}
+
 @media only screen and (max-width: 1050px) {
-  .main__nav {
-    padding-left: 50px;
+  .main__navbar {
+    padding: 30px;
   }
-  .nav__links {
+  .navbar__navItems-item {
     display: none;
   }
-  .sign > p > a {
-    display: inline;
-  }
 
-  .sass__navbar-menu {
-    display: block;
-
-    position: absolute;
-    right: 50px;
-  }
-  .nav__links1 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    text-decoration: none;
-
-    // text-align: center;
-  }
-  .nav__items1 {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .sign1 {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-
-// @media screen and (max-width: 1050px) {
-//   .nav__items {
-//     display: none;
-//   }
-//   // .nav__links {
-//   //   display: none;
-//   // }
-//   .sign {
-//     display: inline;
-//   }
-//   .sass__navbar-menu {
-//     display: block;
-//   }
-//   .nav__links1 {
-//     display: flex;
-//     justify-content: flex-end;
-//     align-items: center;
-//     flex-direction: column;
-//     text-decoration: none;
-//     // text-align: center;
-//   }
-//   .nav__items1 {
-//     flex-direction: column;
-//     gap: 20px;
-//   }
-//   .sign1 {
-//     flex-direction: column;
-//     gap: 20px;
-//   }
-// }
-
-@media screen and (max-width: 768px) {
-  .sign > p > a {
-    display: none;
-  }
-  .sass__navbar-menu {
+  .nav__items__hamburgerMenu {
     display: block;
   }
-  .main__nav {
-    padding-left: 50px;
-  }
-  // .nav__links {
-  //   display: none;
-  // }
-}
 
-@media screen and (max-width: 550px) {
-  .arShakir__logo {
-    position: fixed;
-  }
-  .main__nav {
-    padding-left: 30px;
+  @media screen and (max-width: 768px) {
+    .signin__startfree {
+      display: none;
+    }
 
-    padding-bottom: 3px;
+    .main__navbar {
+      padding: 20px;
+    }
+    .nav__items__hamburgerMenu {
+      display: block;
+    }
   }
 
-  .sass__navbar-menu {
-    display: block;
-  }
-  .nav__links1 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    text-decoration: none;
-    // text-align: center;
-  }
-  .nav__items1 {
-    flex-direction: column;
-    gap: 20px;
+  @media screen and (max-width: 550px) {
+    .navbar__logo {
+      position: fixed;
+    }
+    .main__navbar {
+      padding: 10px;
+    }
+
+    .nav__items__hamburgerMenu {
+      display: block;
+    }
   }
 }

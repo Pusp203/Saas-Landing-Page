@@ -18,19 +18,19 @@ function App() {
     <div className="app">
       <div className="app__headerBannerWrapper">
         <Navbar />
-        <Banner />
+        {/* <Banner /> */}
       </div>
-      <Company />
+      {/* <Company />
       <Sectionheading />
-      <Valueprops />
+      <Valueprops /> */}
       {/* <Sectioncontent1 />
       <Sectioncontent2 /> */}
-      <Features />
+      {/* <Features />
       <Testimonials />
       <Recentblog />
-      <FAQS />
+      <FAQS /> */}
       {/* <Cta /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

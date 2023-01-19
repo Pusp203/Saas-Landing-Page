@@ -2,15 +2,16 @@
   padding: 0px 121px 0px 121px;
   align-items: flex-start;
   flex-direction: column;
-  max-width: 1222px;
+  max-width: 1440px;
 }
 .footer__subcontainer {
   padding-bottom: 0px;
+  gap: 76px;
 }
 .companies__description {
   display: flex;
   flex-direction: column;
-  padding-bottom: 104px;
+  // padding-bottom: 104px;
 }
 .companies__description img {
   padding-bottom: 18px;
@@ -31,25 +32,25 @@
 }
 
 .nav__itemswrap {
-  padding-bottom: 59px;
-  padding-left: 76px;
+  // padding-bottom: 59px;
+  // padding-left: 76px;
   max-width: 911px;
 }
 
-.link-column1 {
+.link-column {
   flex-direction: column;
-  padding-right: 137px;
+  // padding-right: 137px;
   gap: 18px;
-  flex-wrap: nowrap;
+  // flex-wrap: nowrap;
 }
-.link-column1 p {
+.link-column p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 
   color: #181433;
 }
-.link-column1 h4 {
+.link-column h4 {
   font-weight: 700;
   font-size: 21px;
   line-height: 24px;
@@ -58,46 +59,46 @@
   padding-bottom: 6px;
 }
 
-.link-column2 {
-  flex-direction: column;
-  padding-right: 114px;
-  gap: 12px;
-}
-.link-column2 p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+// .link-column2 {
+//   flex-direction: column;
+//   // padding-right: 114px;
+//   gap: 12px;
+// }
+// .link-column2 p {
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 24px;
 
-  color: #181433;
-}
-.link-column2 h4 {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 24px;
+//   color: #181433;
+// }
+// .link-column2 h4 {
+//   font-weight: 700;
+//   font-size: 21px;
+//   line-height: 24px;
 
-  color: #181433;
-  padding-bottom: 12px;
-}
+//   color: #181433;
+//   padding-bottom: 12px;
+// }
 
-.link-column3 {
-  flex-direction: column;
-  max-width: 389px;
-}
-.link-column3 p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+// .link-column3 {
+//   flex-direction: column;
+//   max-width: 389px;
+// }
+// .link-column3 p {
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 24px;
 
-  color: #181433;
-}
-.link-column3 h4 {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 24px;
-  // max-width: 389px;
-  color: #181433;
-  padding-bottom: 24px;
-}
+//   color: #181433;
+// }
+// .link-column3 h4 {
+//   font-weight: 700;
+//   font-size: 21px;
+//   line-height: 24px;
+//   // max-width: 389px;
+//   color: #181433;
+//   padding-bottom: 24px;
+// }
 input::placeholder {
   font-weight: 500;
   font-size: 16px;
@@ -158,6 +159,6 @@ input::placeholder {
   letter-spacing: -0.02em;
 
   color: #181433;
-  padding-top: 40px;
+  margin-top: 40px;
   padding-bottom: 58px;
 }

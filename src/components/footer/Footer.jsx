@@ -30,21 +30,21 @@ const Footer = () => {
           </div> */}
         </div>
         <div className="nav__itemswrap flex">
-          <div class="link-column1 flex ">
+          <div class="link-column flex ">
             <h4>Company</h4>
             <p>About Us</p>
             <p>Careers</p>
             <p>Blog</p>
             <p>Pricing</p>
           </div>
-          <div class="link-column2 flex">
+          <div class="link-column flex">
             <h4>Resources</h4>
             <p>Proposal Template</p>
             <p>Invoice Template</p>
             <p>Tuturoial</p>
             <p>How to write a contract</p>
           </div>
-          <div class="link-column3 flex">
+          <div class="link-column flex">
             <h4>Join Our Newsletter</h4>
 
             <div class="email__1 flex">

@@ -1,0 +1,30 @@
+.rightNav {
+  display: flex;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  flex-direction: row;
+
+  color: #000000;
+  align-items: center;
+}
+.rightNav__startFreeBtn {
+  border: 1px solid #4f46ba;
+  background: #4f46ba;
+  padding: 17px 36px 16px 36px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.ri__closeline {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
