@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,700;1,200&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,700;1,200&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500;600;900&display=swap");
+#root {
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.app__headerBannerWrapper {
+  background: linear-gradient(292.12deg, #62bada -35.02%, #c9e7f2 78.96%);
+}
+
+.app {
+  overflow-x: hidden;
+  background: #fafbff;
+}/*# sourceMappingURL=index.css.map */

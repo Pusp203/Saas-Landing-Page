@@ -1,0 +1,99 @@
+/* Section Heading*/
+.section__heading {
+  max-width: 1171px;
+  padding-left: 119px;
+  padding-right: 150px;
+  gap: 320px;
+  padding-block: 71px;
+}
+
+.left__section {
+  max-width: 646px;
+  padding-right: 122px;
+}
+
+.left__section h1 {
+  max-width: 646px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  text-align: justify;
+}
+
+.section__heading p {
+  max-width: 449px;
+  padding-top: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+  letter-spacing: -0.02em;
+}
+
+.testi__monials {
+  max-width: 402px;
+  background: #c4c4c4;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.paragra__ph {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 147% */
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding: 38px 34px 18px;
+}
+
+.testi__monials p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 147% */
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+@media screen and (max-width: 440px) {
+  .section__heading {
+    gap: 20px;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 15px 18px 8px 30px;
+  }
+  .left__section h1 {
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+  }
+  .section__heading p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    flex-wrap: nowrap;
+  }
+  .testi__monials {
+    border-radius: 5px;
+  }
+  .testi__monials p {
+    font-weight: 500;
+    padding: 12px 1px 1px;
+    padding: 4px 1px 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .paragra__ph {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 2px 0px 2px 2px;
+  }
+}/*# sourceMappingURL=sectionheading.css.map */

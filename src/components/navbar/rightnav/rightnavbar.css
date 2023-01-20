@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,700;1,200&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500;600;900&display=swap");
-
 .rightNav {
   display: flex;
   gap: 20px;
@@ -9,23 +8,21 @@
   line-height: 19px;
   text-align: center;
   flex-direction: row;
-
   color: #000000;
   align-items: center;
-
-  &__startFreeBtn {
-    border: 1px solid #4f46ba;
-    background: #4f46ba;
-    padding: 17px 36px 16px 36px;
-    color: white;
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-  }
-  &__signIn {
-    text-decoration: none;
-    color: #000000;
-  }
 }
+.rightNav__startFreeBtn {
+  border: 1px solid #4f46ba;
+  background: #4f46ba;
+  padding: 17px 36px 16px 36px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+.rightNav__signIn {
+  text-decoration: none;
+  color: #000000;
+}/*# sourceMappingURL=rightnavbar.css.map */

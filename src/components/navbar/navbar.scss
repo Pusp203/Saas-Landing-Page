@@ -1,18 +1,17 @@
 @import "../../styles/variable.scss";
 @import "../../styles/mixins.scss";
-
 .main__navbar {
-  padding: 38px 117px 70px 121px;
+  padding: 38px 117px 0px 121px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1202px;
   margin: auto;
 }
+.nav__items__hamburgerMenu {
+  display: none;
+}
 
-// .nav__items__hamburgerMenu {
-//   display: block;
-// }
 .ri__closeline {
   position: absolute;
   right: 20px;
@@ -28,34 +27,37 @@
   left: 0;
   width: 100vw;
   height: 50vh;
-}
-.nav__items__hamburgerMenu-container__links {
-  display: flex;
-  flex-direction: column;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
 
-  color: #000000;
+  &__links {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 
-  align-items: center;
-  gap: 20px;
-  padding: 30px;
-  position: fixed;
-}
-.nav__items__hamburgerMenu {
-  display: none;
+    color: #000000;
+
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    position: fixed;
+  }
+  &__links-items {
+    text-decoration: none;
+    color: #000000;
+  }
 }
 
-.nav__items__hamburgerMenu-container__links-items {
-  text-decoration: none;
-  color: #000000;
+@media screen and (max-width: 1440px) {
+  .main__navbar {
+    padding: 0px 16px;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
   .main__navbar {
-    padding: 30px;
+    padding: 20px;
   }
   .navbar__navItems-item {
     display: none;
@@ -71,7 +73,7 @@
     }
 
     .main__navbar {
-      padding: 20px;
+      padding: 15px;
     }
     .nav__items__hamburgerMenu {
       display: block;

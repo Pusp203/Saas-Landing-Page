@@ -1,5 +1,4 @@
 .navbar__navItems {
-  // @include Typography(14, 500, 19px) // font-style: normal;
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -18,16 +17,13 @@
       display: block;
     }
   }
-}
-
-// .nav__links {
-//   @include Texts();
-// }
-.navbar__navItems-item {
-  text-decoration: none;
-  color: #000000;
-}
-.rightNav__signIn {
-  text-decoration: none;
-  color: #000000;
+  &-item {
+    text-decoration: none;
+    color: #000000;
+  }
+  &__ri__menuline {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+  }
 }

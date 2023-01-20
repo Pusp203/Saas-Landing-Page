@@ -12,13 +12,15 @@ import FAQS from "./components/FAQS/Faqs";
 import Cta from "./components/cta/Cta";
 import Recentblog from "./components/recentblogs/Recentblog";
 import Footer from "./components/footer/Footer";
+import IconOne from "./components/banner/icons/icon-right";
 
 function App() {
   return (
     <div className="app">
       <div className="app__headerBannerWrapper">
         <Navbar />
-        {/* <Banner /> */}
+
+        <Banner />
       </div>
       {/* <Company />
       <Sectionheading />
@@ -28,9 +30,9 @@ function App() {
       {/* <Features />
       <Testimonials />
       <Recentblog />
-      <FAQS /> */}
-      {/* <Cta /> */}
-      {/* <Footer /> */}
+      <FAQS />
+      <Cta />
+      <Footer /> */}
     </div>
   );
 }

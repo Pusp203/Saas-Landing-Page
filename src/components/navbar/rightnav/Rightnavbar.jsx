@@ -18,7 +18,7 @@ const Rightnavbar = () => {
           <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
         ) : (
           <RiMenu3Line
-            className="ri__menuline"
+            className="nav__items__hamburgerMenu--ri__menuline"
             size={27}
             onClick={() => setToggleMenu(true)}
           />
