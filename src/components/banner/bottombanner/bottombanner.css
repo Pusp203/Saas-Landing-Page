@@ -1,0 +1,21 @@
+.bottom__banner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #757095;
+}
+.bottom__banner-left {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.bottom__banner-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}/*# sourceMappingURL=bottombanner.css.map */

@@ -3,8 +3,8 @@
 }
 .main__banner-section {
   max-width: 1202px;
-  padding-left: 121px;
-  padding-right: 117px;
+  // padding-left: 121px;
+  // padding-right: 117px;
   margin: auto;
 }
 .banner__division {
@@ -24,18 +24,8 @@
     padding: 0px 16px;
   }
 }
-@media screen and (max-width: 1050px) {
-  .banner__division-left {
-    position: relative;
-    z-index: 10;
-  }
+@media screen and (max-width: 1040px) {
   .banner__image {
     display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner__division-left {
-    max-width: 100%;
   }
 }

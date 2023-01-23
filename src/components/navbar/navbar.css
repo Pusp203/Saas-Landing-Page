@@ -1,5 +1,5 @@
 .main__navbar {
-  padding: 38px 117px 0px 121px;
+  padding-top: 38px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +46,8 @@
 
 @media screen and (max-width: 1440px) {
   .main__navbar {
-    padding: 0px 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media only screen and (max-width: 1050px) {

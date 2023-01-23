@@ -2,39 +2,36 @@
 .comapnies__section {
   background-color: #f5f6f8;
   text-align: center;
-  max-width: 1440px;
-  margin: auto;
-  // padding-left: 87px;
-  // padding-right: 95px;
+  padding-left: 87px;
+  padding-right: 95px;
 }
+
 .com {
   padding-top: 64px;
 }
+
 .company__description {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 30px;
   /* identical to box height */
-
   color: #000000;
 }
+
 .company__images {
-  display: flex;
-  justify-content: space-between;
-  gap: 49px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding: 40px;
 }
 
 @media only screen and (max-width: 440px) {
   .comapnies__section p {
+    position: -webkit-sticky;
     position: sticky;
-    // padding: 0px;
   }
-
   .company__images {
     flex-wrap: wrap;
     margin: 5px;
   }
-}
+}/*# sourceMappingURL=company.css.map */

@@ -22,17 +22,17 @@ function App() {
 
         <Banner />
       </div>
-      {/* <Company />
-      <Sectionheading />
-      <Valueprops /> */}
+      <Company />
+      {/* <Sectionheading /> */}
+      <Valueprops />
       {/* <Sectioncontent1 />
       <Sectioncontent2 /> */}
-      {/* <Features />
-      <Testimonials />
-      <Recentblog />
+      {/*<Recentblog />
       <FAQS />
-      <Cta />
-      <Footer /> */}
+      <Cta /> */}
+      {/* <Features /> */}
+      {/* // <Testimonials /> */}
+      <Footer />
     </div>
   );
 }

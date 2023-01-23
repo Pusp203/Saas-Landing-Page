@@ -1,14 +1,13 @@
 .features__container {
-  max-width: 1440px;
+  max-width: 1202px;
+  margin: auto;
+
   background: #c9e7f2;
-  // margin: 3rem;
-  flex-direction: column;
+
   padding-top: 96px;
 }
 
 .features__description {
-  padding-bottom: 51px;
-  padding-left: 119px;
   flex-direction: column;
 }
 .features__description h1 {
@@ -37,10 +36,7 @@
 }
 .features__cards {
   gap: 30px;
-
-  padding-left: 123px;
-  padding-right: 117px;
-  padding-bottom: 137px;
+  display: flex;
 }
 .features__cards1 {
   max-width: 383px;
@@ -104,6 +100,7 @@
   letter-spacing: -0.02em;
 }
 .remaining__cards {
+  display: flex;
   align-items: center;
   flex-direction: column;
   gap: 32px;

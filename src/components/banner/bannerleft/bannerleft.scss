@@ -1,6 +1,12 @@
-.banner__division-left {
+.bannerLeft {
   max-width: 646px;
-
+  @media (max-width: 1040px) {
+    max-width: 100%;
+  }
+  // .bannerLeft > h1 {
+  //   position: relative;
+  //   z-index: 10;
+  // }
   > p {
     font-weight: 500;
     width: 60%;
@@ -23,7 +29,7 @@
     color: #000000;
     padding-bottom: 22px;
   }
-  .banner__division-left__buttons {
+  .bannerLeft__buttons {
     display: flex;
     gap: 50px;
     align-items: center;
