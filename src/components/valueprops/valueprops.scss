@@ -48,20 +48,21 @@
   .valueprops__cards {
     flex-wrap: wrap;
     gap: 18px;
-  }
-  .card {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 20px;
 
-    h2 {
-      font-size: 24px;
-      line-height: 28px;
-      margin-bottom: 8px;
-    }
-    p {
-      font-size: 12px;
-      line-height: 22px;
+    .card {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 20px;
+
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 8px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 22px;
+      }
     }
   }
 }
