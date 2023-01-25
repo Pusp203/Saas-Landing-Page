@@ -1,159 +1,82 @@
-.footer-maincontainer {
+.footer {
   margin: auto;
   max-width: 1202px;
-}
-.footer__subcontainer {
-  display: flex;
-  justify-content: space-between;
-
-  &--companiesdetails {
-    max-width: 213px;
-
-    > p {
-      padding-top: 18px;
-      padding-bottom: 31px;
-    }
-
-    &--socialmedialinks {
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
-    }
-  }
-  .footer__subcontainer--navwrap {
-    display: flex;
-    flex-direction: column;
-
-    gap: 18px;
-    margin-bottom: 4rem;
-
-    .footer__subcontainer--navwrap p {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
-
-      color: #181433;
-    }
-
-    .lfooter__subcontainer--navwrap > h4 {
-      font-weight: 700;
-      font-size: 21px;
-      line-height: 24px;
-
-      color: #181433;
-      padding-bottom: 6px;
-    }
+  @media only screen and (max-width: 1440px) {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
-  .footer__subcontainer--newslettersection {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+  @media only screen and (max-width: 992px) {
+    padding: 20px;
   }
-  .control-group {
-    display: flex;
-    flex-wrap: wrap;
+  @media only screen and (max-width: 700px) {
+    padding: 20px;
   }
-  .buttton {
-  }
-  input::placeholder {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-
-    letter-spacing: -0.02em;
-
-    color: #181433;
-
-    opacity: 0.2;
-    width: calc(100% - 114px);
-    // height: 36px;
-    // line-height: 36px;
-    // border-radius: 0;
-    // font-size: 14px;
-    // color: #6e6f71;
-    // padding: 0 10px;
-    // text-indent: 0;
-    // background-color: #f4f4f4;
-    // border: none;
-  }
-  .subscrive-btn {
-    // width: 114px;
-  }
-  .input {
-    background: #eeeeff;
-    all: unset;
+  @media only screen and (max-width: 400px) {
     padding: 15px;
-
-    padding: 15px 90px 11px 15px;
   }
 
-  .email__1 {
-    background-color: #eeeeff;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 990px) {
+      row-gap: 40px;
+      column-gap: 40px;
+    }
+    @media only screen and (max-width: 700px) {
+      // gap: 20px;
+      flex-direction: column;
+      // column-gap: 20px;
+      row-gap: 40px;
+    }
+
+    &-navwrap {
+      display: flex;
+      flex-direction: column;
+
+      gap: 18px;
+      margin-bottom: 4rem;
+      @media only screen and (max-width: 700px) {
+        gap: 10px;
+        margin-bottom: 0rem;
+      }
+
+      > p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #181433;
+      }
+
+      > h4 {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 24px;
+
+        color: #181433;
+        padding-bottom: 6px;
+      }
+    }
   }
-  // .btn {
-  //   overflow: visible;
-  //   border: none;
-  //   background: transparent;
-  //   outline: none;
-  //   border: none;
-  //   font-weight: 500;
-  //   font-size: 16px;
-  //   line-height: 26px;
 
-  //   letter-spacing: -0.02em;
-
-  //   color: #ffffff;
-  //   background: #3734a9;
-
-  //   padding: 13px 32px 13px 43px;
-  // }
-  .required__field {
+  &__bottom {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
 
+    text-align: center;
     letter-spacing: -0.02em;
 
     color: #181433;
 
-    opacity: 0.5;
-  }
-  .mandatory__field {
-    max-width: 329px;
-  }
-}
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 58px;
 
-.sub__footer {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  color: #181433;
-
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 58px;
-}
-@media only screen and (max-width: 768px) {
-  .footer__subcontainer {
-    flex-direction: column;
-
-    padding: 10px;
-    max-width: 100%;
-    &--companiesdetails--socialmedialinks {
-      gap: 6px;
-    }
-
-    &--companiesdetails > p {
-      padding: 5px;
-    }
-    .footer__subcontainer--navwrap {
-      gap: 10px;
-      margin-bottom: 2rem;
+    @media screen and (max-width: 700px) {
+      padding: 10px;
     }
   }
 }
