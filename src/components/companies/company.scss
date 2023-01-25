@@ -34,7 +34,16 @@
   }
 
   .company__images {
+    padding: 15px;
+    gap: 22px;
     flex-wrap: wrap;
-    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .company__images {
+    padding: 15px;
+    gap: 20px;
+    flex-wrap: wrap;
   }
 }

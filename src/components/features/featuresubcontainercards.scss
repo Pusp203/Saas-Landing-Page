@@ -1,0 +1,89 @@
+.features__subcontainer-cards {
+  display: flex;
+  gap: 30px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    // flex-direction: column;
+
+    max-width: 100%;
+  }
+
+  &__left {
+    display: flex;
+    gap: 30px;
+    @media only screen and (max-width: 540px) {
+      flex-direction: column;
+    }
+
+    &-card1 {
+      background: #ffffff;
+      border: 1px solid #abc8d2;
+      border-radius: 10px;
+      padding: 30px;
+
+      @media only screen and (max-width: 768px) {
+        max-width: 100%;
+      }
+
+      > img {
+        padding-bottom: 33px;
+      }
+      > h2 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+        color: #000000;
+        padding-bottom: 16px;
+      }
+      > p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+
+    flex-direction: column;
+    gap: 32px;
+
+    // justify-content: space-between;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: row;
+    }
+
+    @media only screen and (max-width: 540px) {
+      flex-direction: column;
+    }
+
+    &-card {
+      background: #ffffff;
+      border: 1px solid #abc8d2;
+      border-radius: 10px;
+
+      padding: 42px 43px 41px 31px;
+      > h2 {
+        font-size: clamp(10px, 3vw, 22px);
+      }
+
+      @media screen and (max-width: 1024px) {
+        width: 50%;
+      }
+
+      @media only screen and (max-width: 540px) {
+        width: unset;
+      }
+    }
+  }
+}

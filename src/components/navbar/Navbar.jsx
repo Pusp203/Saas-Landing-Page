@@ -9,13 +9,16 @@ import Rightnavbar from "./rightnav/Rightnavbar";
 
 const Navbar = () => {
   return (
-    <div className="main__navbar ">
-      <div className="navbar__logo ">
-        <img src={Arshakir} />
-      </div>
-      <Middlenavbar />
+    <div className="navbar">
+      <div className="navbar__container">
+        <div className="navbar__container--logo ">
+          <img src={Arshakir} />
+        </div>
 
-      <Rightnavbar />
+        <Middlenavbar />
+
+        <Rightnavbar />
+      </div>
     </div>
   );
 };

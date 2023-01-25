@@ -10,20 +10,8 @@
   align-items: center;
   gap: 15px;
 
-  &__hamburgerMenu {
-    display: none;
-
-    @media screen and (max-width: 1050px) {
-      display: block;
-    }
-  }
   &-item {
     text-decoration: none;
     color: #000000;
-  }
-  &__ri__menuline {
-    position: absolute;
-    right: 20px;
-    top: 16px;
   }
 }

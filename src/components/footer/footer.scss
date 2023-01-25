@@ -50,6 +50,12 @@
     flex-direction: column;
     gap: 18px;
   }
+  .control-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .buttton {
+  }
   input::placeholder {
     font-weight: 500;
     font-size: 16px;
@@ -60,31 +66,48 @@
     color: #181433;
 
     opacity: 0.2;
+    width: calc(100% - 114px);
+    // height: 36px;
+    // line-height: 36px;
+    // border-radius: 0;
+    // font-size: 14px;
+    // color: #6e6f71;
+    // padding: 0 10px;
+    // text-indent: 0;
+    // background-color: #f4f4f4;
+    // border: none;
+  }
+  .subscrive-btn {
+    // width: 114px;
   }
   .input {
     background: #eeeeff;
     all: unset;
     padding: 15px;
 
-    // padding: 15px 90px 11px 15px;
+    padding: 15px 90px 11px 15px;
   }
 
   .email__1 {
     background-color: #eeeeff;
   }
-  .blue__btn {
-    border: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+  // .btn {
+  //   overflow: visible;
+  //   border: none;
+  //   background: transparent;
+  //   outline: none;
+  //   border: none;
+  //   font-weight: 500;
+  //   font-size: 16px;
+  //   line-height: 26px;
 
-    letter-spacing: -0.02em;
+  //   letter-spacing: -0.02em;
 
-    color: #ffffff;
-    background: #3734a9;
+  //   color: #ffffff;
+  //   background: #3734a9;
 
-    padding: 13px 32px 13px 43px;
-  }
+  //   padding: 13px 32px 13px 43px;
+  // }
   .required__field {
     font-weight: 500;
     font-size: 16px;

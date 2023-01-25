@@ -1,16 +1,22 @@
 @import "../../styles/variable.scss";
 @import "../../styles/mixins.scss";
-.main__navbar {
-  padding-top: 38px;
+.navbar {
+  // display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: transparent;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1202px;
-  margin: auto;
-}
-.nav__items__hamburgerMenu {
-  display: none;
+  &__container {
+    padding-top: 38px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1202px;
+    margin: auto;
+  }
 }
 
 .ri__closeline {
@@ -18,7 +24,50 @@
   right: 20px;
   top: 16px;
 }
+.sidebar__hamburgerMenu {
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .navbar__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
+@media only screen and (max-width: 1050px) {
+  .navbar__container {
+    padding: 20px;
+  }
+  .navbar__navItems-item {
+    display: none;
+  }
+
+  .sidebar__hamburgerMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .signin__startfree {
+    display: none;
+  }
+
+  .navbar__container {
+    padding: 15px;
+  }
+  .sidebar__hamburgerMenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar__container {
+    padding: 10px;
+  }
+
+  .sidebar__hamburgerMenu {
+    display: block;
+  }
+}
 .nav__items__hamburgerMenu-container {
   background: linear-gradient(292.12deg, #62bada -35.02%, #c9e7f2 78.96%);
 
@@ -47,51 +96,5 @@
   &__links-items {
     text-decoration: none;
     color: #000000;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .main__navbar {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-@media only screen and (max-width: 1050px) {
-  .main__navbar {
-    padding: 20px;
-  }
-  .navbar__navItems-item {
-    display: none;
-  }
-
-  .nav__items__hamburgerMenu {
-    display: block;
-  }
-
-  @media screen and (max-width: 768px) {
-    .signin__startfree {
-      display: none;
-    }
-
-    .main__navbar {
-      padding: 15px;
-    }
-    .nav__items__hamburgerMenu {
-      display: block;
-    }
-  }
-
-  @media screen and (max-width: 550px) {
-    .navbar__logo {
-      position: fixed;
-    }
-    .main__navbar {
-      padding: 10px;
-    }
-
-    .nav__items__hamburgerMenu {
-      display: block;
-    }
   }
 }

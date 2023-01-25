@@ -17,10 +17,9 @@ import IconOne from "./components/banner/icons/icon-right";
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <div className="app__headerBannerWrapper">
-        <Navbar />
-
-        <Banner />
+        <Banner />{" "}
       </div>
       <Company />
       {/* <Sectionheading /> */}

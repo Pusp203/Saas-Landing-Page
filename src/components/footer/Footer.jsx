@@ -53,11 +53,24 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        {/* <div class="subscriber-form">
+          <div class="control-group">
+            <input
+              type="email"
+              name="EMAIL"
+              class="control subscribe-field"
+              placeholder="Your email address"
+              aria-label="Newsletter"
+              required
+            />
+            <button class="btn subscribe-btn ">Subscribe</button>
+          </div>
+        </div> */}
       </div>
       <hr />
       <div className="sub__footer">
         {" "}
-        Copyright @ AR Shakir 2022. All Rights Reserved.
+        Copyright &copy; AR Shakir 2022. All Rights Reserved.
       </div>
     </div>
   );
