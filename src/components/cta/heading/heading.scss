@@ -1,0 +1,37 @@
+.heading {
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    padding: 50px;
+  }
+  > h2 {
+    font-size: clamp(40px, 5vw, 56px);
+    line-height: 61px;
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #ffffff;
+    padding-bottom: 42px;
+    @media screen and (max-width: 768px) {
+      padding-bottom: 32px;
+      line-height: 45px;
+    }
+  }
+  &-getStartedBtn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+    padding: 19px 42px 18px 42px;
+    background: #ff7f5c;
+    border-radius: 10px;
+    border: none;
+    @media screen and (max-width: 768px) {
+      padding: 20px;
+    }
+  }
+}

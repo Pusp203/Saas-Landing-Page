@@ -1,43 +1,49 @@
-.cta__maincontainer {
+.cta {
   max-width: 1200px;
-  padding-bottom: 200px;
-  padding-left: 123px;
-  padding-right: 117px;
-}
+  margin: auto;
 
-.cta__subcontainer {
-  background: #3734a9;
-  border-radius: 20px;
-}
-.mein__headingss h2 {
-  max-width: 763px;
-  // padding: 108px 219px 41px 218px;
-  font-weight: 800;
-  font-size: 56px;
-  line-height: 61px;
-  /* or 109% */
+  @media screen and (max-width: 768px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  @media screen and (max-width: 1440px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  &__container {
+    background: #3734a9;
+    border-radius: 20px;
+    padding: 100px 0px;
+    position: relative;
 
-  text-align: center;
-  letter-spacing: -0.03em;
-
-  color: #ffffff;
-}
-.btn__2 {
-  padding-right: 219px;
-  padding-bottom: 100px;
-  padding-left: 488px;
-}
-.second__btn {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
-  /* identical to box height, or 167% */
-
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  color: #ffffff;
-  padding: 19px 42px 18px 42px;
-  background: #ff7f5c;
-  border-radius: 10px;
+    &-right {
+      position: absolute;
+      right: 36px;
+      top: 53px;
+    }
+    &-left {
+      position: absolute;
+      left: 100px;
+      bottom: 53px;
+    }
+    &-centerleft {
+      position: absolute;
+      top: 58px;
+      left: 190px;
+      @media screen and (max-width: 1024px) {
+        left: 120px;
+      }
+      @media screen and (max-width: 768px) {
+        left: 90px;
+      }
+      @media screen and (max-width: 640px) {
+        left: 30px;
+      }
+    }
+    &-bottom {
+      position: absolute;
+      right: 36px;
+      bottom: 53px;
+    }
+  }
 }

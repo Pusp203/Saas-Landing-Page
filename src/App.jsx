@@ -19,7 +19,8 @@ function App() {
     <div className="app">
       <Navbar />
       <div className="app__headerBannerWrapper">
-        <Banner />{" "}
+        {" "}
+        <Banner />
       </div>
       <Company />
       {/* <Sectionheading /> */}
@@ -27,11 +28,11 @@ function App() {
       {/* <Sectioncontent1 />
       <Sectioncontent2 /> */}
       {/*<Recentblog />
-      <FAQS />
-      <Cta /> */}
-      {/* <Features /> */}
+      <FAQS />*/}
+      <Cta />
+      <Features />
       {/* // <Testimonials /> */}
-      <Footer />
+      <Footer />/
     </div>
   );
 }
