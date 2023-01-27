@@ -1,9 +1,11 @@
-.valueprops__cards {
+.valueprops {
   max-width: 1202px;
   margin: auto;
-  padding: 100px 0px;
+}
+.valueprops__cards {
   display: flex;
   gap: 31px;
+  padding: 71px 0px;
   @media only screen and (max-width: 1440px) {
     padding-left: 16px;
     padding-right: 16px;
@@ -73,13 +75,13 @@
       }
     }
   }
-}
-@media only screen and (max-width: 440px) {
-  .valueprops__cards {
-    gap: 10px;
-  }
-  .card {
-    width: 70%;
-    padding: 10px;
+  @media only screen and (max-width: 440px) {
+    .valueprops__cards {
+      gap: 10px;
+    }
+    .card {
+      width: 70%;
+      padding: 10px;
+    }
   }
 }

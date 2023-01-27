@@ -10,21 +10,19 @@ import protonet from "../../assets/protonet.png";
 
 const Company = () => {
   return (
-    <div>
-      <div class="comapnies__section ">
+    <div className="companies">
+      <div className="companies__section ">
         {" "}
-        <p class="com">
-          Over 32k+ software businesses growing with AR Shakir
-        </p>{" "}
-        <div class="company__images flex">
-          <img src={protonet} alt="" />
-          <img src={samsung} alt="" />
-          <img src={segment} alt="" />
-          <img src={openZeppelin} alt="" />
-          <img src={morpheus} alt="" />
-          <img src={monday} alt="" />
-          <img src={oracle} alt="" />
-        </div>
+        <p>Over 32k+ software businesses growing with AR Shakir</p>{" "}
+      </div>
+      <div className="companies__images ">
+        <img src={protonet} alt="" />
+        <img src={samsung} alt="" />
+        <img src={segment} alt="" />
+        <img src={openZeppelin} alt="" />
+        <img src={morpheus} alt="" />
+        <img src={monday} alt="" />
+        <img src={oracle} alt="" />
       </div>
     </div>
   );

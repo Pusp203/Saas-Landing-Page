@@ -35,9 +35,9 @@
 }
 
 @media only screen and (max-width: 1050px) {
-  .navbar__container {
-    padding: 20px;
-  }
+  // .navbar__container {
+  //   padding: 20px;
+  // }
   .navbar__navItems-item {
     display: none;
   }
@@ -51,18 +51,15 @@
     display: none;
   }
 
-  .navbar__container {
-    padding: 15px;
-  }
   .sidebar__hamburgerMenu {
     display: block;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .navbar__container {
-    padding: 10px;
-  }
+  // .navbar__container {
+  //   padding: 10px;
+  // }
 
   .sidebar__hamburgerMenu {
     display: block;

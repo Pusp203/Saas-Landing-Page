@@ -2,18 +2,14 @@
   max-width: 1200px;
   margin: auto;
 
-  @media screen and (max-width: 768px) {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
   @media screen and (max-width: 1440px) {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0px 16px;
   }
   &__container {
+    padding: 150px 0px;
     background: #3734a9;
     border-radius: 20px;
-    padding: 100px 0px;
+    padding: 108px 0px 100px;
     position: relative;
 
     &-right {

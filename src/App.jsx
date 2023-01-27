@@ -27,11 +27,11 @@ function App() {
       <Valueprops />
       {/* <Sectioncontent1 />
       <Sectioncontent2 /> */}
-      {/*<Recentblog />
-      <FAQS />*/}
+      {/*<Recentblog />*/}
+      {/* <FAQS /> */}
       <Cta />
-      <Features />
-      {/* // <Testimonials /> */}
+      {/* <Features /> */}
+      <Testimonials />
       <Footer />/
     </div>
   );
